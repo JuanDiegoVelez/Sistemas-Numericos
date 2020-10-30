@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversión Numérica</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <header>
+    <h1>Conversión Numérica</h1>
+  </header>
+
+  <div class="box">
+    <div class="contendor">
+      <h2>
+        Converir a base
+      </h2>
+      <ul>
+        <li>
+          Número decimal:
+          <input type="text" id="numero">
+        </li>
+        <li>
+          Base a convertir:
+          <input type="text" id="base" value="2">
+        </li>
+        <li>
+          Resultado:
+          <input type="text" id="resultado" readonly>
+        </li>
+        <li>
+          <input type="submit" value="CALCULAR" onclick="calcular()">
+        </li>
+        <li>
+          <input type="submit" value="LIMPIAR" onclick="limpiar()">
+        </li>
+      </ul>
+    </div>
+  
+    <div class="contendor">
+      <h2>
+        Convertir a decimal
+      </h2>
+      <ul>
+        <li>
+          Número:
+          <input type="text" id="numero_base">
+        </li>
+        <li>
+          Escrito en base:
+          <input type="text" id="base_escrito" value="2">
+        </li>
+        <li>
+          Resultado decimal:
+          <input type="text" id="resultado_base" readonly>
+        </li>
+        <li>
+          <input type="submit" value="CALCULAR" onclick="calcular2()">
+        </li>
+        <li>
+          <input type="submit" value="LIMPIAR" onclick="limpiar2()">
+        </li>
+      </ul>
+    </div> 
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
